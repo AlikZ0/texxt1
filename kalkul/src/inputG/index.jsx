@@ -27,7 +27,7 @@ class InputG extends React.Component {
     }
     render() {
         return <div>
-            <input type="namber" value={this.state.numberValue} onChange={this.foo} />
+            <input type="number" value={this.state.numberValue} onChange={this.foo} />
             <span className="G-span" onClick={this.decrement}>-</span>
             <span className="G-span">{this.state.number}</span>
             <span className="G-span" onClick={this.increment}>+</span>
