@@ -2,6 +2,7 @@ import './App.css';
 import InputG from './inputG';
 import InputH1 from './inputH1';
 import InputP from './inputP';
+import InputK from './inputk';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         <InputG />
         <InputH1/>
         <InputP/>
+        <InputK/>
    </div>
   );
 }
