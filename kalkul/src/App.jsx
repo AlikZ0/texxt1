@@ -3,14 +3,16 @@ import InputG from './inputG';
 import InputH1 from './inputH1';
 import InputP from './inputP';
 import InputK from './inputk';
+import FunctionSS from './functionSS'
 
 function App() {
   return (
    <div className='G-center'>
-        <InputG />
+        {/* <InputG />
         <InputH1/>
-        <InputP/>
-        <InputK/>
+        <InputP/> */}
+        {/* <InputK/> */}
+        <FunctionSS/>
    </div>
   );
 }
