@@ -4,15 +4,17 @@ import InputH1 from './inputH1';
 import InputP from './inputP';
 import InputK from './inputk';
 import FunctionSS from './functionSS'
+import Vektor from './vektrA'
 
 function App() {
   return (
    <div className='G-center'>
         {/* <InputG />
         <InputH1/>
-        <InputP/> */}
-        {/* <InputK/> */}
+        <InputP/> 
+         <InputK/> */}
         <FunctionSS/>
+        <Vektor/>
    </div>
   );
 }

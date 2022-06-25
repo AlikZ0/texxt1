@@ -1,0 +1,15 @@
+.P-map{
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    height: 500px;
+    
+}
+.P-map h1{
+    font-size: 20px;
+    color: red;
+}
+.P-map h2{
+    font-size:20px;
+    color: rgb(7, 23, 7);
+}
