@@ -1,0 +1,26 @@
+.P-flex{
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.G-Spectre {
+    background-color: pink;
+    margin: 1px auto;
+    padding: 1px auto;
+    width: 400px;
+    height: 500px;
+}
+
+.P-img {
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.P-border {
+    margin: 25px auto;
+    width: 250px;
+    border: 2px solid red;
+}

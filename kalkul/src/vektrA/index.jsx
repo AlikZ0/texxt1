@@ -51,13 +51,13 @@ const Vektor = () => {
     <button onClick={foo2}>Click Me</button>
     <br/>
     <h3>{sort}</h3>
-    <div className="P-map">
+    {/* <div className="P-map " >
       {arry.map((el) => {
         // return el%2===0? <h1>{el}</h1>: <h2>{el}</h2>
         // return <h1 style={{color: el%2===0? 'red':'rgba(200,200,200,0.5)'}}>{el}</h1>
         // return <h1 className={`${el%2===0? 'P-red':''}`}>{el}</h1>
       })}
-    </div>
+    </div> */}
 
   </div>
 }

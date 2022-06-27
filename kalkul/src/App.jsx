@@ -5,6 +5,7 @@ import InputP from './inputP';
 import InputK from './inputk';
 import FunctionSS from './functionSS'
 import Vektor from './vektrA'
+import Spectre from './spectreX'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
          <InputK/> */}
         <FunctionSS/>
         <Vektor/>
+        <Spectre/>
    </div>
   );
 }
