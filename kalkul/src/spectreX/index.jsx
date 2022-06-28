@@ -88,10 +88,13 @@ const Spectre = () => {
     //  console.log();
 
     const foo = () => {
-        userFlag(!flag)
+       
         const newSort = []
+        if (inputValue) {
+            userFlag(!flag)
+        
         for (let i = 0; i < users.length; i++) {
-            if (users[i].position === inputValue) {
+            if (users[i].position === inputValue ) {
                 newSort.push(users[i])
 
             }
@@ -99,8 +102,9 @@ const Spectre = () => {
         newSort.sort((a, b) => a - b)
         setsort(newSort)
         console.log(sort);
-
     }
+    }
+
     const foo1 = (e) => {
         const x = null
         
