@@ -102,6 +102,8 @@ const Spectre = () => {
         newSort.sort((a, b) => a - b)
         setsort(newSort)
         console.log(sort);
+    }else{
+        setsort(users)
     }
     }
 
